@@ -1,0 +1,8 @@
+grant {
+    permission javax.management.MBeanTrustPermission "register";
+    permission java.lang.RuntimePermission "createClassLoader";
+    permission java.lang.RuntimePermission "setContextClassLoader";
+    permission org.elasticsearch.secure_sm.ThreadPermission "modifyArbitraryThreadGroup";
+    permission org.elasticsearch.secure_sm.ThreadPermission "modifyArbitraryThread";
+};
+
